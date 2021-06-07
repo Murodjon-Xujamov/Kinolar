@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll</title>
+    <!-- Bootsrap Style -->
+    <!-- <link rel="stylesheet" href="./css/bootstrap.css"> -->
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./fontawesome-free-5.12.0-web/css/all.min.css" />
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <img src="./logo.svg" class="logo" alt="logo" />
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">home</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">about</a>
+              </li>
+              <li>
+                <a href="#services" class="scroll-link">Kinolar</a>
+              </li>
+              <li>
+                <a href="#toursa" class="scroll-link">Footer</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <h1>Kinolar</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eos
+            neque sunt in? Id, necessitatibus quos quisquam distinctio
+            laudantium fugiat?
+          </p>
+          <a href="#tours" class="scroll-link btn btn-white">explore tours</a>
+        </div>
+      </div>
+    </header>
+    <!-- about -->
+  <section class="section" id="about">
+    <div class="title">
+      <h2>about</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+        aperiam!
+      </p>
+    </div>
+  
+    <div class="about-center section-center">
+      <article class="about-img">
+        <img src="./hero-bcg.jpeg" alt="" />
+      </article>
+      <article class="about">
+        <!-- btn container -->
+        <div class="btn-container">
+          <button class="tab-btn active" data-id="history">history</button>
+          <button class="tab-btn" data-id="vision">vision</button>
+          <button class="tab-btn" data-id="goals">goals</button>
+        </div>
+        <div class="about-content">
+          <!-- single item -->
+          <div class="content active" id="history">
+            <h4>history</h4>
+            <p>
+              I'm baby wolf pickled schlitz try-hard normcore marfa man bun
+              mumblecore vice pop-up XOXO lomo kombucha glossier bicycle
+              rights. Umami kinfolk salvia jean shorts offal venmo. Knausgaard
+              tilde try-hard, woke fixie banjo man bun. Small batch tumeric
+              mustache tbh wayfarers 8-bit shaman chartreuse tacos. Viral
+              direct trade hoodie ugh chambray, craft beer pork belly flannel
+              tacos single-origin coffee art party migas plaid pop-up.
+            </p>
+          </div>
+          <!-- end of single item -->
+          <!-- single item -->
+          <div class="content" id="vision">
+            <h4>vision</h4>
+            <p>
+              Man bun PBR&B keytar copper mug prism, hell of helvetica. Synth
+              crucifix offal deep v hella biodiesel. Church-key listicle
+              polaroid put a bird on it chillwave palo santo enamel pin,
+              tattooed meggings franzen la croix cray. Retro yr aesthetic four
+              loko tbh helvetica air plant, neutra palo santo tofu mumblecore.
+              Hoodie bushwick pour-over jean shorts chartreuse shabby chic.
+              Roof party hammock master cleanse pop-up truffaut, bicycle
+              rights skateboard affogato readymade sustainable deep v
+              live-edge schlitz narwhal.
+            </p>
+          </div>
+          <!-- end of single item -->
+          <!-- single item -->
+          <div class="content" id="goals">
+            <h4>goals</h4>
+            <p>
+              Chambray authentic truffaut, kickstarter brunch taxidermy vape
+              heirloom four dollar toast raclette shoreditch church-key.
+              Poutine etsy tote bag, cred fingerstache leggings cornhole
+              everyday carry blog gastropub. Brunch biodiesel sartorial mlkshk
+              swag, mixtape hashtag marfa readymade direct trade man braid
+              cold-pressed roof party. Small batch adaptogen coloring book
+              heirloom. Letterpress food truck hammock literally hell of wolf
+              beard adaptogen everyday carry. Dreamcatcher pitchfork yuccie,
+              banh mi salvia venmo photo booth quinoa chicharrones.
+            </p>
+          </div>
+          <!-- end of single item -->
+        </div>
+      </article>
+    </div>
+  </section>
+    <!-- services -->
+    <section id="services" class="section">
+      <div class="title">
+        <h2>Kino<span>lar</span></h2>
+      </div>
+      <div class="container">
+        <div class="row__flex">
+          <div class="col__sm">
+            <ul class="list__group" id="moviesParent">
+                  
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="section" id="toursa">
+      <p>
+        TATU &copy; Zaripov Otabek
+        <span id="date"></span>.Chuqur
+      </p>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="./js/app.js"></script>
+    <script src="./js/app copy.js"></script>
+    <script src="./Kinolar_js/movies.js"></script>
+    <script src="./js/vidio.js"></script>
+  </body>
+</html>
